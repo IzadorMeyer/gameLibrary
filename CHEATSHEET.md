@@ -10,6 +10,11 @@ To release your library to `bower` initially:
 
 <hr>
 
+### check Tag History
+
+'git tag -l' // view previous versions
+
+
 ### Updating 
 
 To re-release your library to `bower`:
