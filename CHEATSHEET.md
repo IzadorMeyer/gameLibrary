@@ -14,10 +14,18 @@ To release your library to `bower` initially:
 
 'git tag -l' // view previous versions
 
+### import into diffrent Project
+
+To add your library to a project (specifically, a project in the video-game course.)
+
+1. `cd video-game-course/<project-name>` goes into game project
+1. `bower install --save https://github.com/IzadorMeyer/gameLibrary.git` NOTE: .git is incredibly important.
+1. `cd ../..` This just gets you out of the project for git adding and stuff.
+
 
 ### Updating 
 
-To re-release your library to `bower`:
+To re-release your library to `bower`: 
 
 1. Save your changes to the `index.js` file.
 2. Open up the `bower.json` file, and increment the version number, from `1.0.0` to `1.1.0` (or from its previous version to the next version). Save the file.

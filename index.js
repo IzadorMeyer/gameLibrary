@@ -2,7 +2,7 @@
 (function (window, _) {
   window.gameLibrary = window.gameLibrary || {
     numz: {
-
+      // this function gets distance between objects
       getDistance(pointA, pointB) {
         const distanceX = pointB.x - pointA.x;
         const distanceY = pointB.y - pointA.y;
