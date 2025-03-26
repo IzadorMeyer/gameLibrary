@@ -9,6 +9,19 @@
         const distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
         return distance;
       },
+      degreesToRadians(degrees){
+        return degress * Math.PI / 180;
+      },
+      radiansToDegrees(radians){
+        return radians * 180 / Math.PI;
+      },
+      getAngleDegrees(pointA, pointB){
+        const distanceX = pointB.x - pointA.x;
+        const distanceY = pointB.y - pointA.y;
+        const radians = Math.atan2(distanceY, distanceX);
+        const degrees = radians * 180 / Math.PI;
+        return degrees;
+      }
 
     },
     phyz: {
